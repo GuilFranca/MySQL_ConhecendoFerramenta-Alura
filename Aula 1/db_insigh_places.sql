@@ -39,6 +39,8 @@ CREATE TABLE hospedagens (
     FOREIGN KEY (proprietario_id) REFERENCES proprietarios (proprietario_id)
     );
     
+    -- DROP TABLE alugueis;
+    
     CREATE TABLE alugueis (
 		aluguel_id VARCHAR (255) PRIMARY KEY,
         cliente_id VARCHAR (255),
